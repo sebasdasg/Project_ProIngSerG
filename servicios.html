@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>PROINGSERG</title>
+    <link rel="preload" href="css/normalize.css" as="style" />
+    <link rel="stylesheet" href="css/normalize.css" />
+
+    <link
+      rel="preload"
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      crossorigin="crossorigin"
+      as="font"
+    />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preload" href="css/style.css" as="style" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <nav class="nav container">
+        <!-- NOMBRE Y LOGO -->
+        <a href="index.html" class="nav__logo">
+          <i class="fa-solid fa-screwdriver-wrench"></i>
+          PRO<span>INGSERG</span>
+        </a>
+        <!-- MENU ENLACES -->
+        <div class="nav__menu" id="nav-menu">
+          <a href="index.html" class="nav__logo-second">
+            <i class="fa-solid fa-screwdriver-wrench"></i>
+            PRO<span>INGSERG</span>
+          </a>
+          <ul class="nav__list no-margin">
+            <li class="nav__item">
+              <a href="index.html" class="nav__link active__link">INICIO</a>
+            </li>
+            <li class="nav__item">
+              <a href="#" class="nav__link">NOSOTROS</a>
+            </li>
+            <li class="nav__item">
+              <a href="servicios.html" class="nav__link">SERVICIOS</a>
+            </li>
+            <li class="nav__item">
+              <a href="proyectos.html" class="nav__link">PROYECTOS</a>
+            </li>
+            <li class="nav__item">
+              <a href="contacto.html" class="nav__link">CONTACTO</a>
+            </li>
+          </ul>
+          <div class="nav__close" id="nav-close">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <!-- MENU INFORMACION -->
+        <div class="nav__datos" id="nav-datos">
+          <a href="#" class="nav__logo-second">
+            <i class="fa-solid fa-screwdriver-wrench nav__logo-img"></i>
+            PRO<span>INGSERG</span>
+          </a>
+          <div class="nav__datos-i">
+            <div class="nav__datos-info">
+              <i class="fa-solid fa-phone"></i>
+              <h4 class="no-margin">Teléfono</h4>
+              <p>
+                +51 968 166 634 <br />
+                +51 999 999 999
+              </p>
+            </div>
+            <div class="nav__datos-info">
+              <i class="fa-solid fa-envelope"></i>
+              <h4 class="no-margin">E-mail</h4>
+              <p>
+                hjimanthony@gmail.com <br />
+                anthony_90_16@gmail.com
+              </p>
+            </div>
+            <div class="nav__datos-info">
+              <i class="fa-solid fa-location-dot"></i>
+              <h4 class="no-margin">Dirección</h4>
+              <p>
+                Calle Daniel Alcides Carrión 210 <br />
+                Urb. Conde Villa Señor - SMP
+              </p>
+            </div>
+            <div class="nav__datos-info">
+              <i class="fa-brands fa-square-facebook"></i>
+              <i class="fa-brands fa-instagram"></i>
+              <i class="fa-brands fa-linkedin"></i>
+            </div>
+          </div>
+          <div class="nav__close" id="close-info">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        </div>
+        <!-- ICONO MENU E INFO -->
+        <div class="nav__btns">
+          <a href="https://wa.link/lzv2q8" class="nav__wsp" id="nav-wsp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <div class="nav__info" id="nav-info">
+            <i class="fa-solid fa-circle-info"></i>
+          </div>
+          <div class="nav__toggle" id="nav-toggle">
+            <i class="fa-solid fa-bars"></i>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <section class="home__service">
+      <div class="container">
+        <div class="portal__project">
+          <h2 class="portal__project--subtitle">Proyectos</h2>
+          <h1 class="portal__project--title">
+            Hacemos que el sueño cobre vida
+          </h1>
+          <p class="portal__project--description">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis
+            mollitia et necessitatibus, consequatur error id?
+          </p>
+        </div>
+      </div>
+    </section>
+    <!--===================== MAIN ======================-->
+    <main>
+      <!-- first section stars -->
+      <section class="service container">
+        <div class="service__content">
+          <h1>Servicios</h1>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis
+            non, qui neque nam, aliquid unde autem dolorum cum laudantium
+            possimus officiis repudiandae sint minus cupiditate eligendi
+            consequuntur aperiam placeat earum.
+          </p>
+          <ul class="service__filters">
+            <li
+              class="service__item projects__line active-project"
+              data-filter=".melamine"
+            >
+              <h3 class="service__title">
+                Melamine<br />
+                <i class="fa-solid fa-couch"></i>
+              </h3>
+            </li>
+
+            <li class="service__item projects__line" data-filter=".puertas">
+              <h3 class="service__title">
+                Puertas<br />
+                <i class="fa-solid fa-dungeon"></i>
+              </h3>
+            </li>
+
+            <li class="service__item projects__line" data-filter=".diseño">
+              <h3 class="service__title">
+                Diseño y Construcción<br /><i
+                  class="fa-solid fa-trowel-bricks"
+                ></i>
+              </h3>
+            </li>
+
+            <li
+              class="service__item projects__line"
+              data-filter=".remodelacion"
+            >
+              <h3 class="service__title">
+                Remodelaciones<br /><i class="fa-solid fa-wrench"></i>
+              </h3>
+            </li>
+
+            <li class="service__item" data-filter=".consultoria">
+              <h3 class="service__title">
+                Consultoria<br /><i class="fa-solid fa-toolbox"></i>
+              </h3>
+            </li>
+          </ul>
+        </div>
+      </section>
+      <section class="service__content-module grid">
+        <article class="service__content-category melamine">
+          <!-- <div class="service__content-img img-service-1"> -->
+          <img
+            src="images/service-melamine.jpg"
+            alt=""
+            class="service__content-img"
+          />
+          <!-- </div> -->
+          <div class="service__content-description">
+            <h3>Melamine</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              fugiat eveniet! Sint odio porro obcaecati illo numquam error
+              dolorum veniam, iusto optio sit neque maiores ipsa ut facilis,
+              doloribus accusantium.
+            </p>
+            <a href="proyectos.html" class="portal__button button__service"
+              >Ver Proyectos</a
+            >
+          </div>
+        </article>
+
+        <article class="service__content-category puertas">
+          <div class="service__content-description margin-right">
+            <h3>Puerta</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              fugiat eveniet! Sint odio porro obcaecati illo numquam error
+              dolorum veniam, iusto optio sit neque maiores ipsa ut facilis,
+              doloribus accusantium.
+            </p>
+            <a href="proyectos.html" class="portal__button button__service"
+              >Ver Proyectos</a
+            >
+          </div>
+          <img
+            src="images/service-puerta.jpg"
+            alt=""
+            class="service__content-img"
+          />
+        </article>
+
+        <article class="service__content-category diseño">
+          <img
+            src="images/service-diseño.jpg"
+            alt=""
+            class="service__content-img"
+          />
+          <div class="service__content-description">
+            <h3>Diseño y Construcción</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              fugiat eveniet! Sint odio porro obcaecati illo numquam error
+              dolorum veniam, iusto optio sit neque maiores ipsa ut facilis,
+              doloribus accusantium.
+            </p>
+            <a href="proyectos.html" class="portal__button button__service"
+              >Ver Proyectos</a
+            >
+          </div>
+        </article>
+
+        <article class="service__content-category remodelacion">
+          <div class="service__content-description margin-right">
+            <h3>Remodelación</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              fugiat eveniet! Sint odio porro obcaecati illo numquam error
+              dolorum veniam, iusto optio sit neque maiores ipsa ut facilis,
+              doloribus accusantium.
+            </p>
+            <a href="proyectos.html" class="portal__button button__service"
+              >Ver Proyectos</a
+            >
+          </div>
+          <img
+            src="images/service-remodelacon.jpg"
+            alt=""
+            class="service__content-img"
+          />
+        </article>
+
+        <article class="service__content-category consultoria">
+          <img
+            src="images/service-consultoria.jpg"
+            alt=""
+            class="service__content-img"
+          />
+          <div class="service__content-description">
+            <h3>Consultoria</h3>
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ducimus,
+              fugiat eveniet! Sint odio porro obcaecati illo numquam error
+              dolorum veniam, iusto optio sit neque maiores ipsa ut facilis,
+              doloribus accusantium.
+            </p>
+            <a href="proyectos.html" class="portal__button button__service"
+              >Ver Proyectos</a
+            >
+          </div>
+        </article>
+      </section>
+      <!-- first section end -->
+      <!--contact section stars-->
+      <section class="footer">
+        <div class="container">
+          <div class="footer__container">
+            <div class="footer-about">
+              <div class="logo__footer">
+                <i class="fa-solid fa-screwdriver-wrench"></i>
+                PRO<span>INGSERG</span>
+              </div>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Voluptate, exercitationem aspernatur obcaecati quo temporibus id
+                repudiandae at eum, accusamus neque tenetur. Tempora voluptate
+                dolores quos.
+              </p>
+              <a href="#" class="fab fa-facebook-f"></a>
+              <a href="#" class="fab fa-twitter"></a>
+              <a href="#" class="fab fa-instagram"></a>
+              <a href="#" class="fab fa-linkedin"></a>
+            </div>
+
+            <div class="footer-navegation">
+              <h3>Navegación</h3>
+              <a href="#">Nosotros</a>
+              <a href="#">Proyectos</a>
+              <a href="#">Servicios</a>
+              <a href="#">Contacto</a>
+            </div>
+
+            <div class="footer-service">
+              <h3>Servicios</h3>
+              <a href="#">Construcción</a>
+              <a href="#">Carpinteria</a>
+              <a href="#">Consultoria</a>
+              <a href="#">Acabados</a>
+            </div>
+
+            <div class="footer-contact">
+              <h3>Contacto</h3>
+              <div class="footer-contact-info">
+                <i class="fas fa-phone"></i>
+                <p>+51 968 166 634<br />+51 988 888 888</p>
+              </div>
+              <div class="footer-contact-info">
+                <i class="fas fa-envelope"></i>
+                <p>hjimanthony@gmail.com<br />anthony_90_16@gmail.com</p>
+              </div>
+              <div class="footer-contact-info">
+                <i class="fas fa-map-marker-alt"></i>
+                <p>
+                  jirón josé diez canseco 3402<br />
+                  urb. Conde Villa Señor - SMP
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="copy_right">
+          <p>Todos los derechos reservados &copy; <span>dasg_dev</span></p>
+        </div>
+      </section>
+      <!--contact section end-->
+    </main>
+    <!--===================== MAIN ======================-->
+
+    <!--===================== SWIPER JS ======================-->
+    <script src="js/mixitup.min.js"></script>
+    <!--script-->
+    <script src="js/script.js"></script>
+    <script src="js/script_module.js"></script>
+    <script src="js/filter-service.js"></script>
+  </body>
+</html>
